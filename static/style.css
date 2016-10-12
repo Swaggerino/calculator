@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.buttons input{
+    font-size: 20px;
+    padding: 5px;
+}
+.finish input{
+    font-size: 20px;
+    padding: 5px;
+}
+.float input{
+    font-size: 20px;
+    padding: 5px;
+}
+.operators input{
+    font-size: 20px;
+    padding: 5px;
+}

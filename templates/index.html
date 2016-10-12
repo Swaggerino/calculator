@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="{{url_for('static', filename='main.js')}}"></script>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+
+    </head>
+    <body>
+        <form class="screen">
+            <input type="outputfield" id="screen" value="">
+        </form>
+        <form class="finish">
+            <input type="button" value="C" id="C" name='C'>
+            <input type="button" value="=" id="eval" name='='>
+            <input type="button" value="." id="float" name='.'>
+        </form>
+        <form class="buttons">
+            <input type="button" value="7" id="7" name='7'>
+            <input type="button" value="8" id="8" name='8'>
+            <input type="button" value="9" id="9" name='9'> <br>
+            <input type="button" value="4" id="4" name='4'>
+            <input type="button" value="5" id="5" name='5'>
+            <input type="button" value="6" id="6" name='6'> <br>
+            <input type="button" value="1" id="1" name='1'>
+            <input type="button" value="2" id="2" name='2'>
+            <input type="button" value="3" id="3" name='3'>
+            <input type="button" value="0" id="0" name='0'>
+        </form>
+        <form class='operators'>
+            <input type="button" value="+" id="+" name='+'>
+            <input type="button" value="-" id="-" name='-'>
+            <input type="button" value="*" id="*" name='*'>
+            <input type="button" value="/" id="/" name='/'>
+        </form>
+    </body>
+</html>
